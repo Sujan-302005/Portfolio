@@ -350,7 +350,6 @@ footer {
     }
 }
 
-
 @media print {
     nav, .cta-button, .contact-form, .social-links {
         display: none;
