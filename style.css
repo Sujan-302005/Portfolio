@@ -11,7 +11,6 @@ body {
     background-color: #f8f9fa;
 }
 
-/* Navigation */
 nav {
     background-color: #2c3e50;
     padding: 1rem 0;
@@ -46,7 +45,6 @@ nav a:hover {
     border-radius: 4px;
 }
 
-/* Header */
 header {
     background-color: #34495e;
     color: white;
@@ -80,7 +78,6 @@ header {
     background-color: #c0392b;
 }
 
-/* Main content */
 main {
     max-width: 1200px;
     margin: 0 auto;
@@ -104,7 +101,6 @@ h2 {
     padding-bottom: 1rem;
 }
 
-/* About Section */
 .about-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -145,7 +141,6 @@ h2 {
     border-bottom: none;
 }
 
-/* Projects Section */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -198,7 +193,6 @@ h2 {
     font-weight: bold;
 }
 
-/* Contact Section */
 .contact-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -281,7 +275,6 @@ h2 {
     background-color: #229954;
 }
 
-/* Footer */
 footer {
     background-color: #2c3e50;
     color: white;
@@ -305,7 +298,6 @@ footer {
     color: #3498db;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -358,7 +350,7 @@ footer {
     }
 }
 
-/* Print Styles */
+
 @media print {
     nav, .cta-button, .contact-form, .social-links {
         display: none;
